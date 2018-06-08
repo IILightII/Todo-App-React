@@ -1,0 +1,59 @@
+#header{
+    padding: 20px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS';
+    background-color: #6600CC;
+    color: white;
+    text-align: center;
+}
+.container{
+    padding: 0px !important;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 5px  rgba(50,50,50,0.6);
+    width: 50% !important;
+}
+.del{
+    float: right;
+}
+.del:hover{
+    cursor: pointer;
+}
+.unorderedList{
+    list-style-type: none;
+}
+
+.listItems{
+    color: #6600CC;
+}
+.itemAndDel{
+    padding: 10px;
+}
+.btn{
+    color: white;
+    background-color: #6600CC;
+    border-radius: 0px !important;
+    width: 100%;
+    padding: 0px !important;
+    margin: 0px !important;
+    height: 50px;
+}
+.btn:hover{
+    background-color: #4C0099;
+}
+.input{
+    border-radius: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    float: left;
+    height: 50px;
+}
+.input:focus {
+    outline: none !important;
+    border:1px solid #6600CC !important;
+    box-shadow: 0 0 10px #6600CC !important;
+}
+.container-fluid{
+    margin: 0px !important;
+    padding: 0px !important;
+}
